@@ -57,8 +57,7 @@ a{
 
 /* ===== Верхняя линия ===== */
 .header{
-        /* padding-top: 24px;
-        padding-bottom: 24px; */
+        padding: 24px 0;
         border-bottom: 1px solid #E7E9FC;
         background:var(--white);
 }
@@ -182,7 +181,7 @@ a{
 }
 
 /* ===== 2 Секция Наши особенности ===== */
-.visually-hidden{
+.visually-hidden {
                 position: absolute;
                 width: 1px;
                 height: 1px;
@@ -191,6 +190,7 @@ a{
                 padding: 0;
                 white-space: nowrap;
                 clip-path: inset(100%);
+                clip: rect(0 0 0 0);
                 overflow: hidden;
 }
 .title-bold {
@@ -275,6 +275,18 @@ a{
 .footer{
         background: #2E2F42;
         padding: 100px 0;
+}
+.footer-logo {
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+        color: var(--iris);
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+
+        margin-bottom: 16px;
 }
 .white-logo{
                 color: #F4F4FD;
